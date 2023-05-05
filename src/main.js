@@ -39,7 +39,7 @@ const fileToBase64Img = file => new Promise((resolve, reject) => {
 // Every time a file is uploaded, it will be read and a new output is generated
 fileupload.onchange = (event) => {
     fileToBase64Img(event.target.files[0]).then((img) => {
-        generate(settings, img)
+        generate(mappings, img)
     });
 }
 
