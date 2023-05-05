@@ -14,5 +14,11 @@ canvas {
     background-color: #888;
     image-rendering: pixelated;
     background-image: url("bg.png");
-    margin: 40px;
+    margin: 10px;
+}
+img {
+    image-rendering: pixelated;
+    width: 128px;
+    display: block;
+    margin: auto;
 }
